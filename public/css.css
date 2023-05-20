@@ -1,0 +1,37 @@
+html, body
+{
+    background:#867070;
+    font-family: Arial, sans-serif;
+    height:100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container
+{
+    text-align: center;
+    width:600px;
+    color: white;
+}
+
+#output
+{
+    margin-top:10px;
+    font-size:20px;
+}
+
+input[type="text"]
+{
+    width:100%;
+    padding:10px;
+    border-radius: 25px;
+    text-align: center;
+    border: 1px solid #F5EBEB;
+    font-size: 1.25em;
+}
+
+@media screen and (max-width: 500px) {
+   #content {width: 200px; float: left;}
+    
+  }
